@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:spotify/pages/login.page.dart';
 
 class InitialPage extends StatefulWidget {
   @override
@@ -111,7 +112,14 @@ class _InitialPageState extends State<InitialPage> {
                   color: Colors.transparent,
                 ),
                 child: FlatButton(
-                  onPressed: (){},
+                  onPressed: (){
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => LoginPage(),
+                      ),
+                    );
+                  },
                   child: Text(
                     'ENTRAR',
                     style: TextStyle(

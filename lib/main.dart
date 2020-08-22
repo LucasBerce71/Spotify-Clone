@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:spotify/pages/InitialPage.dart';
+import 'package:spotify/pages/initial.page.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,4 +19,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-  
